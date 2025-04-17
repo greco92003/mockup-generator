@@ -1,14 +1,4 @@
 {
-  "builds": [
-    {
-      "src": "Dockerfile",
-      "use": "@vercel/docker"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.js"
-    }
-  ]
+  "builds": [{ "src": "Dockerfile", "use": "@vercel/docker" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.js" }]
 }
